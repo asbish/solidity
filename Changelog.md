@@ -7,6 +7,8 @@ Compiler Features:
  * NatSpec: Add fields "kind" and "version" to the JSON output.
  * Commandline Interface: Prevent some incompatible commandline options from being used together.
  * NatSpec: Support NatSpec comments on events.
+ * SMTChecker: Support to external calls to unknown code and to known view/pure functions.
+
 
 Bugfixes:
  * NatSpec: Do not consider ``////`` and ``/***`` as NatSpec comments.
