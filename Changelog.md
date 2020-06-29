@@ -7,6 +7,7 @@ Compiler Features:
  * NatSpec: Add fields "kind" and "version" to the JSON output.
  * Commandline Interface: Prevent some incompatible commandline options from being used together.
  * NatSpec: Support NatSpec comments on events.
+ * Yul Optimizer: Store knowledge about storage / memory after ``a := sload(x)`` / ``a := mload(x)``.
 
 Bugfixes:
  * NatSpec: Do not consider ``////`` and ``/***`` as NatSpec comments.
